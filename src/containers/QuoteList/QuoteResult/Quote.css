@@ -1,0 +1,26 @@
+.Quote{
+    display: flex;
+    margin-top: 10px;
+    align-items: flex-start;
+}
+.Quote > img{
+    width: 100px;
+    height: 130px;
+    margin-right: 5px;
+}
+@media (max-width: 500px){
+    .Quote > img{
+        width: 20%;
+        height: 20vw;
+    }
+    .QuoteText > h3{
+        font-size: 10px;
+    }
+    .QuoteText > p{
+        font-size: 8px;
+    }
+    .QuoteText > .Buttons > button{
+        font-size: 9px;
+        padding: 5px;
+    }
+}

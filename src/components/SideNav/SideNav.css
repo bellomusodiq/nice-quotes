@@ -1,0 +1,53 @@
+.SideNav{
+    display: flex;
+    flex-direction: column;
+    background: rgb(233, 233, 233);
+    height: 100vh;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    width: 20%;
+}
+.SideNavHeading{
+    font-size: 1.5em;
+}
+.SideNav > a {
+    /* display: block; */
+    width: 90%;
+    margin: 5px 0 ;
+} 
+.SideNavItem {
+    padding: 5px;
+}
+@media (max-width: 768px){
+    .SideNav {
+        /* display: none; */
+        width: 30%;
+        transition: 0.5s ease all;
+        transform: translateX(-100vw);
+        z-index: 10;
+    }
+    .ShowSideNav{
+        transform: translateX(0)
+    }
+    .Backdrop{
+        position: fixed;
+        z-index: 9;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        display: none;
+        background: rgba(0, 0, 0, 0.445);
+    }
+    .ShowBackdrop{
+        display: block;
+    }
+}
+@media (max-width: 500px){
+    .SideNav {
+        /* display: none; */
+        width: 70%;
+    }
+}

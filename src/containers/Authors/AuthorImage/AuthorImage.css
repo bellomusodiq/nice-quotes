@@ -1,0 +1,11 @@
+.AuthorImage{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.AuthorImage > img{
+    width: 100%;
+}
+.AuthorImage > p{
+    text-align: center;
+}

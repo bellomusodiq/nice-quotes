@@ -1,0 +1,57 @@
+.QuoteList{
+    display: grid;
+    grid-template-columns: auto 20%;
+}
+.SubscriptionEbook{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.SubscriptionEbook > *{
+    width: 90%;
+    margin: 0% auto;
+}
+.Subscription{
+    position: relative;
+}
+.Subscription > img{
+    width: 100%;
+}
+.Subscription > form{
+    position: absolute;
+    bottom: 10%;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Subscription > form > input {
+    font-size: 16px;
+    padding: 5px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 100%;
+}
+.Subscription > form > button{
+    padding: 5px;
+    width: 100%;
+    margin-left: 25px;
+    outline: none;
+    background: purple;
+    color: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+}
+.Ebook > img{
+    width: 100%;
+}
+@media (max-width: 500px){
+    .QuoteList{
+        display: flex;
+        flex-direction: column;
+    }
+}

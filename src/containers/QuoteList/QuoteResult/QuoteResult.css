@@ -1,0 +1,13 @@
+
+.QuoteResult{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+.Pagination {
+    margin: 20px 0;
+}
+.Pagination > *{
+    margin: 0 2.5px;
+}

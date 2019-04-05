@@ -1,0 +1,14 @@
+.Bookstore{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+}
+.Appstore{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 500px){
+    .Bookstore{
+        grid-template-columns: auto auto;
+    }
+}

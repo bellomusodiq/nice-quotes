@@ -1,0 +1,11 @@
+.Authors{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding: 0 5px;
+    margin-top: 10px;
+}
+@media (max-width: 500px){
+    .Authors{
+        grid-template-columns: auto auto auto;
+    }
+}

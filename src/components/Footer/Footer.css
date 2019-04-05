@@ -1,0 +1,23 @@
+.Footer{
+    display: flex;
+    margin-top: 20px;
+}
+.FooterNav{
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+}
+.Socials{
+    display: flex;
+    justify-content: space-around;
+    /* grid-template-columns: 33% 33% 33%; */
+}
+.Socials > div{
+    /* width: 33%; */
+    margin: 0% 50%;
+}
+@media (max-width: 500px){
+    .Footer a, .Footer div{
+        font-size: 10px;
+    }
+}

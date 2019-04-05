@@ -1,0 +1,58 @@
+.QuoteEdit{
+    display: grid;
+    grid-template-columns: 70% 10% 20%;
+    margin-left: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.ImageEdit > img {
+    width: 95%;
+    margin-bottom: 5px;
+}
+.BackgroundSelect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: ; */
+}
+.BackgroundSelect > img{
+    margin: 5px 0;
+    width: 90%;
+}
+.Shirt{
+    display: flex;
+    flex-direction: column;
+}
+.Shirt > img{
+    width: 90%;
+}
+.Edit{
+    display: flex;
+}
+.Edit > button{
+    margin-right: 5px;
+}
+.EditDropdown{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.EditDropdown > * {
+    margin: 2.5px 0;
+}
+.EditDropdown > span{
+    font-size: 12px;
+}
+.EditDropdown input, .EditDropdown select {
+    border: 1px solid rgb(180, 180, 180);
+    outline: none;
+}
+.TagDetail > div{
+    margin-top: 10px;
+    width: fit-content;
+}
+.BackgroundSelect {
+    display: flex;
+    flex-direction: column;
+    height: 390px;
+    overflow-y: auto;
+}

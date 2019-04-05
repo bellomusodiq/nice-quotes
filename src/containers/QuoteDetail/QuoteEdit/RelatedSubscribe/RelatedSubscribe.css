@@ -1,0 +1,15 @@
+.RelatedSubscribe{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.SubscriptionBuy{
+    display: flex;
+    flex-direction: column;
+}
+.Products{
+    display: grid;
+    grid-template-columns: 48% 48%;
+}
+.Products > img{
+    width: 100%;
+}

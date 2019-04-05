@@ -1,0 +1,15 @@
+.QuoteImage{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+.QuoteImage > img{
+    width: 90%;
+    height: 184.317px;
+    border-radius: 2%;
+}
+@media (max-width: 500px){
+    .QuoteImage > img{
+        height: 90vw;
+    }
+}
